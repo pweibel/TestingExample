@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxApp.Common", "TaxApp.Common\TaxApp.Common.csproj", "{C236CE55-6198-47FE-96B9-B2A8D6BD0302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxApp.Data", "TaxApp.Data\TaxApp.Data.csproj", "{5B7CF966-A357-42E2-903E-F8B56A6DB006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxApp.Logic", "TaxApp.Logic\TaxApp.Logic.csproj", "{41CEC132-15D0-4015-8FD5-C6DAD834B3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxApp.MVC", "TaxApp.MVC\TaxApp.MVC.csproj", "{D56CCB1B-5132-4525-BECE-0140E3BA2EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxApp.MSTest", "TaxApp.MSTest\TaxApp.MSTest.csproj", "{89328590-EADA-4B69-A0F1-795296F0AE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF1852AF-A2F4-4694-8DB6-E13C9101029A}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TaxApp.vsmdi = TaxApp.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TaxApp.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C236CE55-6198-47FE-96B9-B2A8D6BD0302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C236CE55-6198-47FE-96B9-B2A8D6BD0302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C236CE55-6198-47FE-96B9-B2A8D6BD0302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C236CE55-6198-47FE-96B9-B2A8D6BD0302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7CF966-A357-42E2-903E-F8B56A6DB006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7CF966-A357-42E2-903E-F8B56A6DB006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7CF966-A357-42E2-903E-F8B56A6DB006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7CF966-A357-42E2-903E-F8B56A6DB006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CEC132-15D0-4015-8FD5-C6DAD834B3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CEC132-15D0-4015-8FD5-C6DAD834B3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CEC132-15D0-4015-8FD5-C6DAD834B3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CEC132-15D0-4015-8FD5-C6DAD834B3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D56CCB1B-5132-4525-BECE-0140E3BA2EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D56CCB1B-5132-4525-BECE-0140E3BA2EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D56CCB1B-5132-4525-BECE-0140E3BA2EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D56CCB1B-5132-4525-BECE-0140E3BA2EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89328590-EADA-4B69-A0F1-795296F0AE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89328590-EADA-4B69-A0F1-795296F0AE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89328590-EADA-4B69-A0F1-795296F0AE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89328590-EADA-4B69-A0F1-795296F0AE23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿namespace TaxApp.Common.Domain
+{
+	public enum Kanton
+	{
+		Aargau,
+		AppenzellAusserrhoden,
+		AppenzellInnerrhoden,
+		BaselLand,
+		BaselStadt,
+		Bern,
+		Freiburg,
+		Genf,
+		Glarus,
+		Graubuenden,
+		Jura,
+		Luzern,
+		Neuenburg,
+		Nidwalden,
+		Obwalden,
+		Schaffhausen,
+		Schwyz,
+		StGallen,
+		Solothurn,
+		Tessin,
+		Thurgau,
+		Uri,
+		Waadt,
+		Wallis,
+		Zug,
+		Zuerich
+	}
+}
