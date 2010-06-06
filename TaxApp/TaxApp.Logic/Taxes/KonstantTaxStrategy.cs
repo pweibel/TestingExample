@@ -18,7 +18,7 @@ namespace TaxApp.Logic.Taxes
 		{
 			if(this.Configuration == null) throw new Exception("No Taxconfiguration available.");
 
-			return Math.Round(betrag * this.Configuration.Tarif, MidpointRounding.AwayFromZero);
+			return Math.Round(betrag * this.Configuration.Tarif, 2, MidpointRounding.AwayFromZero);
 		}
 	}
 }

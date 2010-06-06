@@ -50,10 +50,12 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KonstantTaxStrategyTest.cs" />
+    <Compile Include="Framework\AssertTest.cs" />
+    <Compile Include="Framework\AttributeTest.cs" />
+    <Compile Include="Taxes\KonstantTaxStrategyTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TaxStrategyFactoryTest.cs" />
-    <Compile Include="TranchenTaxStrategyTest.cs" />
+    <Compile Include="Taxes\TaxStrategyFactoryTest.cs" />
+    <Compile Include="Taxes\TranchenTaxStrategyTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TaxApp.Common\TaxApp.Common.csproj">

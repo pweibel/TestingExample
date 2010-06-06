@@ -1,6 +1,7 @@
 ﻿using System;
-using TaxApp.Common.Domain;
 using System.Linq;
+
+using TaxApp.Common.Domain;
 
 namespace TaxApp.Logic.Taxes
 {
@@ -41,7 +42,7 @@ namespace TaxApp.Logic.Taxes
 						mTranchenMax = tranche.BetragBis.Value;
 					}
 					decimal mBetragTranche = mTranchenMax - mTranchenMin;
-					decimal mSteuerBetragDetail = Math.Round(mBetragTranche * tranche.Tarif, MidpointRounding.AwayFromZero);
+					decimal mSteuerBetragDetail = Math.Round(mBetragTranche * tranche.Tarif, 2, MidpointRounding.AwayFromZero);
 					mTax += mSteuerBetragDetail;
 				}
 			}
